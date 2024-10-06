@@ -1,0 +1,26 @@
+
+# Created by https://www.gitignore.io/api/vapor
+
+### Vapor ###
+Config/secrets
+
+### Vapor Patch ###
+Packages
+.build
+xcuserdata
+*.env
+*.jwks
+DerivedData/
+.DS_Store
+.swiftpm
+
+### VisualStudioCode ###
+.vscode/*
+.history
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# End of https://www.gitignore.io/api/vapor

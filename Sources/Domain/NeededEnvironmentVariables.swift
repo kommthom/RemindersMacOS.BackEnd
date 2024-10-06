@@ -1,0 +1,24 @@
+//
+//  NeededEnvironmentVariables.swift
+//
+//
+//  Created by Thomas Benninghaus on 12.01.24.
+//
+
+import Foundation
+
+public enum NeededEnvironmentVariables: String, CaseIterable {
+    case NO_REPLY_EMAIL = "NO_REPLY_EMAIL"
+    case NO_REPLY_FROM = "NO_REPLY_FROM"
+    case NO_REPLY_PASSWORD = "NO_REPLY_PASSWORD"
+    case SECRET_FOR_JWT = "SECRET_FOR_JWT"
+    case SITE_FRONTEND_PORT = "SITE_FRONTEND_PORT"
+    case SITE_FRONTEND_URL = "SITE_FRONTEND_URL"
+    case SMTPTOOL_HALLO_METHOD = "SMTPTOOL_HALLO_METHOD"
+    case SMTPTOOL_SECURE = "SMTPTOOL_SECURE"
+    case SMTPTOOL_SMTP_PORT = "SMTPTOOL_SMTP_PORT"
+    case SMTPTOOL_SMTP_SERVER = "SMTPTOOL_SMTP_SERVER"
+    case SMTPTOOL_TIMEOUT = "SMTPTOOL_TIMEOUT"
+    case SQLITE_DATABASE_NAME = "SQLITE_DATABASE_NAME"
+    case SQLITE_DATABASE_PATH = "SQLITE_DATABASE_PATH"
+}
